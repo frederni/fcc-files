@@ -268,6 +268,9 @@ ALTER TABLE ONLY public.star ALTER COLUMN star_id SET DEFAULT nextval('public.st
 -- Data for Name: dwarf_planet; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
+INSERT INTO public.dwarf_planet VALUES (1, 'dwarf_planet_1', 102, 'dp1');
+INSERT INTO public.dwarf_planet VALUES (2, 'dwarf_planet_2', 204, 'dp2');
+INSERT INTO public.dwarf_planet VALUES (3, 'dwarf_planet_3', 306, 'dp3');
 
 
 --
